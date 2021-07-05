@@ -5,7 +5,7 @@ I created this for fun, it isn't fully finished but has features that work, feel
 
 API Example:
 
-final SimpleRequest simpleRequest = new SimpleRequest(new SimpleRequestHandler(
+```final SimpleRequest simpleRequest = new SimpleRequest(new SimpleRequestHandler(
 				new Recipient("John",
 							  "Doe",
 							  new RecipientAddress(123, "Sesame", "ST", "Melbourne", "MEL", 3001, "AU"),
@@ -28,3 +28,4 @@ final SimpleRequest simpleRequest = new SimpleRequest(new SimpleRequestHandler(
 							// card number // expiry // CVV // amountToSend // currencyFormat
 		simpleRequest.init("4000000000000000", "11/2022", 441, 50, "AUD");
 	}
+```
