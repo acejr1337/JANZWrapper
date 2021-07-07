@@ -62,7 +62,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>de.kitt3120.republika.Core</mainClass>
+							<mainClass>chace.anzwrapper.JANZWrapper</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
